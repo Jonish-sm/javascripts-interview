@@ -13,3 +13,7 @@ function x(a, b) {
 }
 
 console.log(x(5, 7));
+
+function x(a, b) {
+  return b * a;
+}
