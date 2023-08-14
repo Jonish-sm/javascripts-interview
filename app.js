@@ -21,21 +21,23 @@
 //   return b * a;
 // }
 
-const a = [1, 10, 4, 78, 23, 3];
+// const a = [1, 10, 4, 78, 23, 3];
 
-const b = [2, 7, 8, 77, 23, 10];
+// const b = [2, 7, 8, 77, 23, 10];
 
-var common = {};
+// var common = {};
 
-var x = "value";
-var y = 1;
+// var x = "value";
+// var y = 1;
 
-for (let i = 0; i < a.length; i++) {
-  for (let j = 0; j < b.length; j++) {
-    if (a[i] === b[j]) {
-      common[x + y] = a[i];
-      y++;
-    }
-  }
-}
-console.log(common);
+// for (let i = 0; i < a.length; i++) {
+//   for (let j = 0; j < b.length; j++) {
+//     if (a[i] === b[j]) {
+//       common[x + y] = a[i];
+//       y++;
+//     }
+//   }
+// }
+// console.log(common);
+
+const x = [];
