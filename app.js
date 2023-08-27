@@ -41,4 +41,4 @@
 // console.log(common);
 
 const x = [];
-const x = [];
+const y = [1, 5, 4, 79, 7];
