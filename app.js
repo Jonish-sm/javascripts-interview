@@ -40,7 +40,16 @@
 // }
 // console.log(common);
 
-const x = [];
-const y = [1, 5, 4, 79, 7];
+// const x = [];
+// const y = [1, 5, 4, 79, 7];
 
 //Datastructure
+
+const A = [1, 2, 2, 3, 4, 5, 5, 6, 6];
+const B = [];
+for (let i = 0; i < A.length; i++) {
+  if (B.indexOf(A[i]) === -1) {
+    B.push(A[i]);
+  }
+}
+console.log(B);
